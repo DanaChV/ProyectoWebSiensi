@@ -1,0 +1,170 @@
+<style type="text/css">
+	.card{
+		display: block;
+		margin: auto;
+		border: 2px double;
+		border-radius: 15px 15px 15px 15px;
+		box-shadow: 10px 10px 10px #05162A;
+	}
+
+	h5 {
+		text-align: center;
+	}
+	.a{
+		color: white;
+		background: #05162A;
+		width: 60%;
+		margin-left: 20%;
+	}
+	.a:hover{
+		background: #F0F0F0;
+		border: 1px solid black;
+		color: black;
+	}
+		.main{
+ 	margin-top: 70px;
+}
+
+h1.title { 
+	font-size: 50px;
+	font-family: 'Passion One', cursive; 
+	font-weight: 400; 
+}
+
+hr{
+	width: 10%;
+	color: #fff;
+}
+
+.form-group{
+	margin-bottom: 15px;
+}
+
+label{
+	margin-bottom: 15px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 11px;
+    padding-top: 3px;
+}
+
+.main-center{
+ 	margin-top: 30px;
+ 	margin: 0 auto;
+ 	max-width: 330px;
+    padding: 40px 40px;
+
+}
+
+.login-button{
+	margin-top: 5px;
+}
+
+.login-register{
+	color: blue;
+	font-size: 11px;
+	text-align: center;
+}
+</style>
+
+<article class="inicio">
+	<div class="row">
+		<div class="col-md-9">
+		    <br>
+			<center><img src="images/nss.png" href="#"></center>
+			<br>
+			<h2>¿ QUE ES SIENSI ?</h2>
+			<p>SIENSI (Semillero de Investigación en Seguridad de la Información) ... Es un semillero enfocado en ... </p>
+			<h2>MISIÓN</h2>
+			<p>Es un semillero de investigación enfocado en la aplicación y estudio de tecnologías en seguridad de la información, teniendo como misión incentivar la investigación y desarrollo de herramientas prácticas que impulsen el desarrollo de la universidad, manejando protocolos y estándares actuales, avalados por entes internacionales.</p>
+			<h2>VISIÓN</h2>
+			<p>El SIENSI será para el ... el semillero de investigación líder del departamento de sistemas e informática en el desarrollo de proyectos de investigación, que estén a la vanguardia de las nuevas tecnologías, posicionándose dentro de la comunidad Universitaria y estableciendo las bases para la formación del grupo de investigación en seguridad de la información</p>
+			<h2>OBJETIVO GENERAL</h2>
+			<p>Promover el aprendizaje, la investigación e innovación en la seguridad de la información.</p>
+			<h2>LINEAS DE INVESTIGACIÓN</h2>
+			<ul>
+				<li>Legislación, Normatividad y Estándares en Seguridad de la Información</li>
+				<li>Seguridad en Redes de Computadores y Sistemas de Información</li>
+			</ul>			
+		</div>
+		<div class="col-md-3">
+			<br>
+			<div class="card" style="width: 18rem;">
+			  <img class="card-img-top" src="images/logo.png" alt="Card image cap" style="width: 50%;display: block;margin: auto;">
+			  <div class="card-body">
+			    <h5 class="card-title">INSCRIPCIÓN</h5>
+			    <hr>
+			    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			    <a href="#" id="btnInscribir" class="btn a" data-toggle="modal" data-target=".bd-example-modal-sm">Inscribirme</a>
+			  </div>
+			</div>
+		</div>
+	</div>
+</article>
+
+<div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog" style="width: 50%;">
+    <div class="modal-content" style="padding: 10%;">
+      <div class="form-group">
+      	<form class="form-horizontal" method="post" action="#">
+      		<h3 style="text-align: center;">¡INSCRIPCIÓN!</h3>
+      		<img src="images/logo.png" style="display: block;margin: auto;width: 30%;">
+      		<hr style="width: 100%;">
+							<label for="name" class="cols-sm-2 control-label">Your Name</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="name" id="name"  placeholder="Enter your Name"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="email" class="cols-sm-2 control-label">Your Email</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="email" id="email"  placeholder="Enter your Email"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="username" class="cols-sm-2 control-label">Username</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="username" id="username"  placeholder="Enter your Username"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="password" class="cols-sm-2 control-label">Password</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+									<input type="password" class="form-control" name="password" id="password"  placeholder="Enter your Password"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="confirm" class="cols-sm-2 control-label">Confirm Password</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+									<input type="password" class="form-control" name="confirm" id="confirm"  placeholder="Confirm your Password"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group ">
+							<button type="button" class="btn btn-primary btn-lg btn-block login-button">Register</button>
+						</div>
+					</form>
+    </div>
+  </div>
+</div>
